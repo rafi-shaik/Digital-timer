@@ -1,0 +1,52 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+}
+
+.card-container {
+  width: 100%;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 40px;
+  color: #0f172a;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.timer-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-image: cover;
+  background-position: center;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-text {
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.limit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
